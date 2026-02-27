@@ -1,0 +1,9 @@
+{
+    "default": "#FF6B35",
+    "success": "#0D7F3C",
+    "warning": "#F1C40F",
+    "error": "#8B0000",
+    "info": "#3498DB",
+    "danger": "#8B0000",
+    "gold": "#FFD700"
+}

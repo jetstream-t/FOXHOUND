@@ -1,0 +1,108 @@
+[
+    {
+        "id": "racao_comum",
+        "name": "Ração Padrão",
+        "description": "Comida básica para manter o pet vivo.",
+        "price": 200,
+        "type": "food",
+        "energy": 20,
+        "fun": 5
+    },
+    {
+        "id": "racao_premium",
+        "name": "Ração Premium",
+        "description": "Nutrição balanceada de alta qualidade.",
+        "price": 800,
+        "type": "food",
+        "energy": 50,
+        "fun": 10
+    },
+    {
+        "id": "bife_wagyue",
+        "name": "Bife Wagyu",
+        "description": "Luxo absoluto para seu pet.",
+        "price": 2500,
+        "type": "food",
+        "energy": 100,
+        "fun": 30
+    },
+    {
+        "id": "brinquedo_osso",
+        "name": "Osso de Borracha",
+        "description": "Diversão simples.",
+        "price": 300,
+        "type": "toy",
+        "energy": -5,
+        "fun": 25
+    },
+    {
+        "id": "brinquedo_laser",
+        "name": "Caneta Laser",
+        "description": "Diversão garantida e exercício.",
+        "price": 1000,
+        "type": "toy",
+        "energy": -10,
+        "fun": 60
+    },
+    {
+        "id": "consola_pet",
+        "name": "Pet Station 5",
+        "description": "O console de jogos para pets inteligentes.",
+        "price": 5000,
+        "type": "toy",
+        "energy": -5,
+        "fun": 100
+    },
+    {
+        "id": "kit_primeiros_socorros_pet",
+        "name": "Kit Médico Veterinário",
+        "description": "Revive um pet que acabou de morrer (Uso imediato).",
+        "price": 10000,
+        "type": "medicine",
+        "effect": "revive"
+    },
+    {
+        "id": "vitamina_xp",
+        "name": "Vitamina de Crescimento",
+        "description": "Concede 500 XP instantaneamente ao pet.",
+        "price": 5000,
+        "type": "food",
+    "effect": "xp_boost",
+    "value": 500,
+    "energy": 20,
+    "fun": 0
+    },
+    {
+        "id": "cafe_expresso",
+        "name": "Café Expresso Duplo",
+        "description": "Recupera 100% da energia do pet instantaneamente.",
+        "price": 2000,
+        "type": "food",
+        "energy": 100,
+        "fun": 0
+    },
+    {
+        "id": "ovo_comum",
+        "name": "🥚 Ovo Comum",
+        "description": "Pode conter pets Comuns (80%) ou Incomuns (20%).",
+        "price": 5000,
+        "type": "egg",
+        "pool": ["comum", "incomum"]
+    },
+    {
+        "id": "ovo_raro",
+        "name": "🥚 Ovo Raro",
+        "description": "Pode conter pets Incomuns (60%) ou Raros (40%).",
+        "price": 10000,
+        "type": "egg",
+        "pool": ["incomum", "raro"]
+    },
+    {
+        "id": "ovo_exclusivo",
+        "name": "🥚 Ovo Exclusivo",
+        "description": "Contém Raros (99.99%) ou Exclusivos (0.01%). O único jeito de obter Exclusivos.",
+        "price": 25000,
+        "type": "egg",
+        "pool": ["raro", "exclusivo"]
+    }
+]

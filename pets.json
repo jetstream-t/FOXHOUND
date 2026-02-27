@@ -1,0 +1,302 @@
+[
+    {
+        "id": "cao_sentinela",
+        "name": "Cão Sentinela",
+        "rarity": "comum",
+        "emoji": "🐕",
+        "description": "Um parceiro leal que mantém o perímetro seguro.",
+        "passive": {
+            "n1": { "type": "work_money", "value": 0.05, "desc": "+5% de dinheiro no trabalho" },
+            "n5": { "type": "work_extra_coins", "value": 0.05, "desc": "5% chance de achar Foxies extras" },
+            "n10": { "type": "work_item_chance", "value": 0.05, "desc": "Pequena chance de achar item comum ao trabalhar" }
+        }
+    },
+    {
+        "id": "gato_sombra",
+        "name": "Gato Sombra",
+        "rarity": "comum",
+        "emoji": "🐈",
+        "description": "Silencioso e observador, ideal para infiltrações.",
+        "passive": {
+            "n1": { "type": "rob_success", "value": 0.02, "desc": "+2% sucesso em roubo" },
+            "n5": { "type": "rob_suspicion_reduce", "value": 0.10, "desc": "Reduz suspeita após roubo" },
+            "n10": { "type": "rob_no_wanted", "value": 0.05, "desc": "5% chance de não gerar status Procurado" }
+        }
+    },
+    {
+        "id": "rato_engenhoso",
+        "name": "Rato Engenhoso",
+        "rarity": "comum",
+        "emoji": "🐀",
+        "description": "Pequeno, mas cheio de truques para facilitar o trabalho.",
+        "passive": {
+            "n1": { "type": "work_xp", "value": 0.05, "desc": "+5% XP de trabalho" },
+            "n5": { "type": "work_double_count", "value": 0.10, "desc": "10% chance de contar como +1 trabalho extra" },
+            "n10": { "type": "work_cooldown_reduce_chance", "value": 0.05, "desc": "Pequena chance de reduzir cooldown do trabalho em 20% automaticamente" }
+        }
+    },
+    {
+        "id": "pombo_campo",
+        "name": "Pombo de Campo",
+        "rarity": "comum",
+        "emoji": "🐦",
+        "description": "Ágil e discreto, entrega mensagens e economiza tempo.",
+        "passive": {
+            "n1": { "type": "work_cooldown", "value": 0.03, "desc": "-3% cooldown trabalho" },
+            "n5": { "type": "daily_cooldown_reduce", "value": 0.05, "desc": "5% chance de reduzir cooldown do diário em 1h" },
+            "n10": { "type": "cooldown_reduce_chance", "value": 0.05, "desc": "Pequena chance de reduzir cooldown atual em 25%" }
+        }
+    },
+    {
+        "id": "peixe_guardiao",
+        "name": "Peixe Guardião",
+        "rarity": "comum",
+        "emoji": "🐠",
+        "description": "Traz tranquilidade e equilíbrio emocional.",
+        "passive": {
+            "n1": { "type": "pet_decay_slow", "value": 0.15, "desc": "Fome/diversão do pet caem 15% mais devagar" },
+            "n5": { "type": "pet_care_cost", "value": 0.10, "desc": "Custo de cuidar do pet reduzido" },
+            "n10": { "type": "pet_happiness_protect", "value": 0.10, "desc": "10% chance de não perder felicidade ao ignorar pet" }
+        }
+    },
+    {
+        "id": "hamster_incansavel",
+        "name": "Hamster Incansável",
+        "rarity": "comum",
+        "emoji": "🐹",
+        "description": "Sempre correndo, sempre gerando algo.",
+        "passive": {
+            "n1": { "type": "passive_income", "value": 50, "desc": "Gera pequena renda passiva diária" },
+            "n5": { "type": "login_bonus", "value": 0.10, "desc": "Chance de gerar Foxies extras ao logar" },
+            "n10": { "type": "login_item", "value": 0.05, "desc": "Pequena chance de gerar item comum aleatório" }
+        }
+    },
+    {
+        "id": "aguia_vigia",
+        "name": "Águia Vigia",
+        "rarity": "incomum",
+        "emoji": "🦅",
+        "description": "Olhos atentos que nunca perdem uma oportunidade.",
+        "passive": {
+            "n1": { "type": "work_money", "value": 0.10, "desc": "+10% dinheiro no trabalho" },
+            "n5": { "type": "work_reveal", "value": 1.00, "desc": "Revela recompensa antes do trabalho" },
+            "n10": { "type": "work_big_bonus", "value": 0.05, "desc": "Pequena chance de bônus grande inesperado" }
+        }
+    },
+    {
+        "id": "pastor_defesa",
+        "name": "Pastor de Defesa",
+        "rarity": "incomum",
+        "emoji": "🐕",
+        "description": "Um guardião implacável contra intrusos.",
+        "passive": {
+            "n1": { "type": "rob_defense", "value": 0.05, "desc": "+5% defesa contra roubo" },
+            "n5": { "type": "rob_alert", "value": 1.00, "desc": "Alerta quando alguém tenta roubar" },
+            "n10": { "type": "rob_block_chance", "value": 0.05, "desc": "Pequena chance de bloquear roubo totalmente" }
+        }
+    },
+    {
+        "id": "cobra_guarda",
+        "name": "Cobra de Guarda",
+        "rarity": "incomum",
+        "emoji": "🐍",
+        "description": "Protege seu tesouro com veneno e astúcia.",
+        "passive": {
+            "n1": { "type": "rob_loss_reduce", "value": 0.15, "desc": "Reduz perda ao ser roubado em 15%" },
+            "n5": { "type": "rob_recover_money", "value": 0.10, "desc": "Chance de recuperar parte do dinheiro" },
+            "n10": { "type": "rob_loss_prevent", "value": 0.05, "desc": "Pequena chance de não perder nada" }
+        }
+    },
+    {
+        "id": "companheiro_mecanico",
+        "name": "Companheiro Mecânico",
+        "rarity": "incomum",
+        "emoji": "🤖",
+        "description": "Eficiência programada para maximizar resultados.",
+        "passive": {
+            "n1": { "type": "work_cooldown", "value": 0.05, "desc": "-5% cooldown trabalho" },
+            "n5": { "type": "item_cooldown", "value": 0.10, "desc": "Reduz cooldown de itens" },
+            "n10": { "type": "cooldown_skip", "value": 0.05, "desc": "Pequena chance de ignorar 30% do cooldown atual" }
+        }
+    },
+    {
+        "id": "coruja_operacao",
+        "name": "Coruja de Operação",
+        "rarity": "incomum",
+        "emoji": "🦉",
+        "description": "Especialista em missões noturnas.",
+        "passive": {
+            "n1": { "type": "night_bonus", "value": 0.15, "desc": "+15% ganhos à noite" },
+            "n5": { "type": "night_extra", "value": 0.10, "desc": "Bônus extra em ações noturnas" },
+            "n10": { "type": "night_crit", "value": 0.05, "desc": "Pequena chance de sucesso crítico à noite" }
+        }
+    },
+    {
+        "id": "lobo_investida",
+        "name": "Lobo de Investida",
+        "rarity": "incomum",
+        "emoji": "🐺",
+        "description": "Ataque rápido e coordenado.",
+        "passive": {
+            "n1": { "type": "rob_success", "value": 0.05, "desc": "+5% sucesso em roubo" },
+            "n5": { "type": "rob_fail_penalty", "value": 0.10, "desc": "Reduz penalidade se falhar" },
+            "n10": { "type": "rob_no_jail", "value": 0.05, "desc": "Pequena chance de não gerar prisão" }
+        }
+    },
+    {
+        "id": "porco_guardiao",
+        "name": "Porco Guardião",
+        "rarity": "incomum",
+        "emoji": "🐷",
+        "description": "Sabe multiplicar dinheiro como ninguém.",
+        "passive": {
+            "n1": { "type": "bank_interest", "value": 0.05, "desc": "Bônus leve no banco (juros maiores)" },
+            "n5": { "type": "bank_fee_reduce", "value": 0.10, "desc": "Reduz taxa de saque" },
+            "n10": { "type": "bank_extra_interest", "value": 0.05, "desc": "Pequena chance de gerar juros extras diários" }
+        }
+    },
+    {
+        "id": "camaleao_fantasma",
+        "name": "Camaleão Fantasma",
+        "rarity": "incomum",
+        "emoji": "🦎",
+        "description": "Mestre da camuflagem e evasão.",
+        "passive": {
+            "n1": { "type": "rob_avoid_loss", "value": 0.10, "desc": "10% chance de evitar perda ao ser roubado" },
+            "n5": { "type": "target_reduce", "value": 0.10, "desc": "Reduz chance de ser alvo" },
+            "n10": { "type": "rob_invisible", "value": 0.05, "desc": "Pequena chance de ficar invisível para roubos por 1 ação" }
+        }
+    },
+    {
+        "id": "tigre_elite",
+        "name": "Tigre de Elite",
+        "rarity": "raro",
+        "emoji": "🐅",
+        "description": "Força bruta e precisão letal.",
+        "passive": {
+            "n1": { "type": "work_money", "value": 0.18, "desc": "+18% dinheiro trabalho" },
+            "n5": { "type": "work_high_bonus", "value": 0.10, "desc": "Chance de bônus alto" },
+            "n10": { "type": "work_double", "value": 0.05, "desc": "Pequena chance de trabalho dobrar recompensa" }
+        }
+    },
+    {
+        "id": "sentinela_aereo",
+        "name": "Sentinela Aéreo",
+        "rarity": "raro",
+        "emoji": "🛸",
+        "description": "Vigilância superior a partir dos céus.",
+        "passive": {
+            "n1": { "type": "rob_defense_strong", "value": 0.15, "desc": "Defesa forte contra roubo" },
+            "n5": { "type": "rob_reveal_vulnerable", "value": 1.00, "desc": "Revela jogadores vulneráveis" },
+            "n10": { "type": "jail_ignore", "value": 0.05, "desc": "Pequena chance de ignorar prisão" }
+        }
+    },
+    {
+        "id": "raposa_estrategista",
+        "name": "Raposa Estrategista",
+        "rarity": "raro",
+        "emoji": "🦊",
+        "description": "Sempre um passo à frente do inimigo.",
+        "passive": {
+            "n1": { "type": "rob_success", "value": 0.10, "desc": "+10% sucesso roubo" },
+            "n5": { "type": "rob_crit", "value": 0.05, "desc": "Chance de roubo crítico" },
+            "n10": { "type": "rob_steal_item", "value": 0.05, "desc": "Pequena chance de roubar item do alvo" }
+        }
+    },
+    {
+        "id": "urso_bastilha",
+        "name": "Urso Bastilha",
+        "rarity": "raro",
+        "emoji": "🐻",
+        "description": "Uma fortaleza impenetrável.",
+        "passive": {
+            "n1": { "type": "rob_loss_reduce", "value": 0.35, "desc": "Reduz perda ao ser roubado em 35%" },
+            "n5": { "type": "rob_return_money", "value": 0.10, "desc": "Chance de devolver parte do dinheiro" },
+            "n10": { "type": "rob_block_total", "value": 0.05, "desc": "Pequena chance de bloquear roubo totalmente" }
+        }
+    },
+    {
+        "id": "fenix_renascida",
+        "name": "Fênix Renascida",
+        "rarity": "exclusivo",
+        "emoji": "🔥",
+        "description": "O ciclo da vida e da morte não se aplica a ela.",
+        "passive": {
+            "n1": { "type": "death_resist", "value": 0.25, "desc": "Reduz chance de morte do pet" },
+            "n5": { "type": "auto_revive", "value": 1, "desc": "Revive automaticamente 1x por vida" },
+            "n10": { "type": "ignore_neglect", "value": 0.05, "desc": "Pequena chance diária de ignorar descuido do dono" }
+        }
+    },
+    {
+        "id": "cao_guerra_cibernetico",
+        "name": "Cão de Guerra Cibernético",
+        "rarity": "raro",
+        "emoji": "🦿",
+        "description": "Aprimorado para combate e suporte tático.",
+        "passive": {
+            "n1": { "type": "all_stats", "value": 0.03, "desc": "+3% trabalho, roubo e defesa" },
+            "n5": { "type": "bank_bonus_light", "value": 0.05, "desc": "Bônus adicional leve no banco" },
+            "n10": { "type": "focus_mode", "value": 0.05, "desc": "Pequena chance de ativar Modo Foco (Bônus Geral)" }
+        }
+    },
+    {
+        "id": "coelho_pressagio",
+        "name": "Coelho de Presságio",
+        "rarity": "raro",
+        "emoji": "🐰",
+        "description": "Sua sorte desafia as probabilidades.",
+        "passive": {
+            "n1": { "type": "gamble_win", "value": 0.08, "desc": "+8% chance de vitória em apostas" },
+            "n5": { "type": "gamble_loss_reduce", "value": 0.10, "desc": "Reduz perdas em apostas" },
+            "n10": { "type": "gamble_auto_win", "value": 0.01, "desc": "Pequena chance de vitória automática" }
+        }
+    },
+    {
+        "id": "mercador_campanha",
+        "name": "Mercador de Campanha",
+        "rarity": "raro",
+        "emoji": "🦜",
+        "description": "Conhece todas as rotas de comércio.",
+        "passive": {
+            "n1": { "type": "shop_discount", "value": 0.15, "desc": "15% desconto na loja" },
+            "n5": { "type": "lootbox_extra", "value": 0.10, "desc": "Chance de item extra em lootbox" },
+            "n10": { "type": "shop_bonus_item", "value": 0.05, "desc": "Pequena chance de compra gerar item bônus" }
+        }
+    },
+    {
+        "id": "dragao_tesouro",
+        "name": "Dragão do Tesouro",
+        "rarity": "exclusivo",
+        "emoji": "🐉",
+        "description": "Guardião de riquezas inimagináveis.",
+        "passive": {
+            "n1": { "type": "work_money", "value": 0.15, "desc": "+15% dinheiro trabalho" },
+            "n5": { "type": "work_treasure", "value": 0.05, "desc": "Trabalhos podem gerar Tesouro do Dragão" },
+            "n10": { "type": "dragon_luck", "value": 1.00, "desc": "Habilidade diária: Sorte do Dragão (Recompensa Alta)" }
+        }
+    },
+    {
+        "id": "mini_metal_gear",
+        "name": "Mini Metal Gear",
+        "rarity": "exclusivo",
+        "emoji": "⚙️",
+        "description": "Arma tática de bolso.",
+        "passive": {
+            "n1": { "type": "penalty_reduce", "value": 0.25, "desc": "Reduz penalidades em 25%" },
+            "n5": { "type": "jail_ignore", "value": 0.10, "desc": "Chance de ignorar prisão" },
+            "n10": { "type": "operation_mode", "value": 1.00, "desc": "Habilidade diária: Modo Operação (Ignora Cooldown)" }
+        }
+    },
+    {
+        "id": "andarilho_cosmico",
+        "name": "Andarilho Cósmico",
+        "rarity": "exclusivo",
+        "emoji": "👽",
+        "description": "Um visitante de além das estrelas.",
+        "passive": {
+            "n1": { "type": "random_event", "value": 0.05, "desc": "Pequena chance de evento positivo aleatório ao agir" },
+            "n5": { "type": "login_rare_item", "value": 0.05, "desc": "Chance de receber item raro ao logar" },
+            "n10": { "type": "anomaly", "value": 1.00, "desc": "Habilidade diária: Anomalia (Zerar CD / Duplicar Ganho / Item Raro)" }
+        }
+    }
+]

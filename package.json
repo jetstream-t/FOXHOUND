@@ -1,0 +1,35 @@
+{
+  "name": "meu-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:test": "node deploy-commands.js",
+    "deploy:global": "node deploy-commands-global.js",
+    "start:optimized": "node index.js",
+    "monitor": "node monitor-performance.js",
+    "optimize": "node apply-optimizations.js",
+    "restore": "node restore-backups.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "canvas": "^3.2.1",
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.6",
+    "dayjs": "^1.11.19",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "install": "^0.13.0",
+    "mongoose": "^9.2.1",
+    "node-cron": "^4.2.1",
+    "openai": "^6.21.0",
+    "pg": "^8.18.0"
+  }
+}

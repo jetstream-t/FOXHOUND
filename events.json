@@ -1,0 +1,116 @@
+{
+    "events": [
+        {
+            "id": "job_fair",
+            "name": "Feira de Empregos",
+            "description": "Empresas estão contratando! Ganhe +50% de Foxies ao trabalhar.",
+            "type": "good",
+            "effects": { "work_money_mult": 1.5 }
+        },
+        {
+            "id": "xp_rain",
+            "name": "Chuva de XP",
+            "description": "O conhecimento está no ar! Ganhe +100% de XP em trabalhos e pets.",
+            "type": "good",
+            "effects": { "global_xp_mult": 2.0 }
+        },
+        {
+            "id": "black_friday",
+            "name": "Black Friday",
+            "description": "Queima de estoque! Tudo na loja com 30% de desconto.",
+            "type": "good",
+            "effects": { "shop_discount": 0.3 }
+        },
+        {
+            "id": "luck_fest",
+            "name": "Festival da Sorte",
+            "description": "A sorte está ao seu lado! +20% de chance de sucesso em crimes e roubos.",
+            "type": "good",
+            "effects": { "crime_success_boost": 0.2 }
+        },
+        {
+            "id": "health_week",
+            "name": "Semana da Saúde",
+            "description": "Veterinários gratuitos! Pets não perdem energia nem diversão.",
+            "type": "good",
+            "effects": { "pet_decay_immunity": true }
+        },
+        {
+            "id": "safe_invest",
+            "name": "Investimento Seguro",
+            "description": "O banco central aumentou as taxas! Juros bancários rendem 2x mais.",
+            "type": "good",
+            "effects": { "bank_interest_mult": 2.0 }
+        },
+        {
+            "id": "treasure_hunt",
+            "name": "Caça ao Tesouro",
+            "description": "Rumores de tesouros perdidos... Chance de encontrar itens ao trabalhar!",
+            "type": "good",
+            "effects": { "work_item_drop_chance": 0.1 }
+        },
+        {
+            "id": "work_marathon",
+            "name": "Maratona de Trabalho",
+            "description": "Café liberado! Cooldown de trabalho reduzido em 50%.",
+            "type": "good",
+            "effects": { "work_cooldown_mult": 0.5 }
+        },
+        {
+            "id": "pet_friend",
+            "name": "Amigo dos Animais",
+            "description": "Seus pets estão carentes! Interações dão o dobro de status e XP.",
+            "type": "good",
+            "effects": { "pet_interaction_mult": 2.0 }
+        },
+        {
+            "id": "criminal_amnesty",
+            "name": "Anistia Criminal",
+            "description": "O sistema prisional está lotado! Multas por crimes reduzidas em 80%.",
+            "type": "good",
+            "effects": { "crime_fine_mult": 0.2 }
+        },
+        {
+            "id": "recession",
+            "name": "Recessão Econômica",
+            "description": "Tempos difíceis... Salários reduzidos em 30%.",
+            "type": "bad",
+            "effects": { "work_money_mult": 0.7 }
+        },
+        {
+            "id": "bad_luck_wave",
+            "name": "Onda de Azar",
+            "description": "Gatos pretos por toda parte! -20% de chance de sucesso em crimes.",
+            "type": "bad",
+            "effects": { "crime_success_boost": -0.2 }
+        },
+        {
+            "id": "inflation",
+            "name": "Inflação Galopante",
+            "description": "O preço do arroz subiu! Itens na loja custam 50% a mais.",
+            "type": "bad",
+            "effects": { "shop_price_mult": 1.5 }
+        },
+        {
+            "id": "pet_plague",
+            "name": "Praga dos Pets",
+            "description": "Uma virose misteriosa! Pets perdem status 2x mais rápido.",
+            "type": "bad",
+            "effects": { "pet_decay_mult": 2.0 }
+        },
+        {
+            "id": "lunar_eclipse",
+            "name": "Eclipse Lunar",
+            "description": "EVENTO RARO! A lua sangrenta brilha. Ganhos de XP e Foxies triplicados!",
+            "type": "rare",
+            "effects": { "global_xp_mult": 3.0, "work_money_mult": 3.0 }
+        },
+        {
+            "id": "golden_era",
+            "name": "Era de Ouro",
+            "description": "EVENTO RARO! A prosperidade reina. Tudo em dobro (Ganhos/Sorte) e Loja 50% OFF!",
+            "type": "rare",
+            "effects": { "global_xp_mult": 2.0, "work_money_mult": 2.0, "crime_success_boost": 0.2, "shop_discount": 0.5 }
+        }
+    ]
+}
